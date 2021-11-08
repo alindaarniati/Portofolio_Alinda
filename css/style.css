@@ -106,7 +106,7 @@ a {
 
 /* bagian banner */
 .banner {
-	background: linear-gradient(to top, #BB8FCE 0%, #fff 130%);
+	background: linear-gradient(to top, #ff0000 0%, #fff 130%);
 	padding: 150px 0;
 }
 .banner img {
@@ -171,7 +171,7 @@ section h3::after {
 
 /* bagian skills */
 #skills {
-	background-color: #ff3333;
+	background-color: #ff0000;
 }
 #skills .l-skills {
 	height: 30%;
@@ -232,7 +232,7 @@ section h3::after {
 
 /* bagian contact */
 #contact {
-	background-color: #ff3333;
+	background-color: #ff0000;
 }
 .col-3 {
 	width: 33.33%;
