@@ -84,7 +84,7 @@ a {
 	bottom: 0;
 	left: -200px;
 	width: 200px;
-	background-color: rgba(237, 145, 226, .8);
+	background-color: #ff3333;
 	transition: .3s;
 	z-index: 9999;
 }
@@ -171,7 +171,7 @@ section h3::after {
 
 /* bagian skills */
 #skills {
-	background-color: #BB8FCE;
+	background-color: #ff3333;
 }
 #skills .l-skills {
 	height: 30%;
@@ -232,7 +232,7 @@ section h3::after {
 
 /* bagian contact */
 #contact {
-	background-color: #BB8FCE;
+	background-color: #ff3333;
 }
 .col-3 {
 	width: 33.33%;
