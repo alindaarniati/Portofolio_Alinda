@@ -92,10 +92,10 @@ a {
 	padding: 25px;
 }
 .sidebar ul li a {
-	color: #080707;
+	color: #fff;
 }
 .sidebar ul li:hover {
-	background-color: rgba(161, 156, 160, .8);
+	background-color: rgba (192, 57, 43, 8);
 }
 
 #bar:checked ~ .sidebar {
