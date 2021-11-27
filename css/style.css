@@ -1,5 +1,5 @@
 * {
-	font-family: 'Koh Santepheap', cursive;
+	font-family: 'Quicksand', cursive;
 	padding:0;
 	margin:0;
 	color: black;
@@ -16,7 +16,7 @@ header ul {
 }
 header ul li {
 	display: inline-block;
-	padding:25px;
+	padding:24px;
 }
 header ul li a:hover {
 	color: #d64d60;
@@ -29,6 +29,7 @@ header h1 {
 	display: inline-block;
 	padding-left: 20px;
 	padding-top: 12px;
+	text-transform: uppercase;
 }
 header h1 a:hover {
 	color: #d64d6c;
@@ -51,7 +52,7 @@ a {
 .menu-sidebar {
 	float: right;
 	display: none;
-	padding: 15px;
+	padding: 20px;
 }
 .menu-sidebar:hover {
 	cursor:pointer;
@@ -74,7 +75,7 @@ a {
 	}
 }
 #bar {
-	display:none;
+	display: none;
 }
 
 
@@ -84,18 +85,19 @@ a {
 	bottom: 0;
 	left: -200px;
 	width: 200px;
-	background-color: #C0392B;
+	background-color: rgb(165, 1, 0, .8);
 	transition: .3s;
 	z-index: 9999;
 }
 .sidebar ul li {
 	padding: 25px;
+	transition: .3s;
 }
 .sidebar ul li a {
-	color: #fff;
+	color: #080707;
 }
 .sidebar ul li:hover {
-	background-color: rgba (192, 57, 43, 8);
+	background-color: rgba(161, 156, 160, .8);
 }
 
 #bar:checked ~ .sidebar {
@@ -106,7 +108,7 @@ a {
 
 /* bagian banner */
 .banner {
-	background: linear-gradient(to top, #ff0000 0%, #fff 130%);
+	background: linear-gradient(to top, #a50100 0%, #fff 130%);
 	padding: 150px 0;
 }
 .banner img {
@@ -118,7 +120,7 @@ a {
 .banner h2, 
 .banner p, 
 .banner span {
-	color: #fff;
+	color: black;
 }
 .banner h2 {
 	margin-bottom: 10px;
@@ -171,7 +173,7 @@ section h3::after {
 
 /* bagian skills */
 #skills {
-	background-color: #ff0000;
+	background-color: #a50100;
 }
 #skills .l-skills {
 	height: 30%;
@@ -185,7 +187,7 @@ section h3::after {
 }
 .l-skills .nilai {
 	height: 30px;
-	background-color: #5B2C6F;
+	background-color: black;
 	display: inline-block;
 	color: #fff;
 	text-align: center;
@@ -201,10 +203,10 @@ section h3::after {
 	width: 84%;
 }
 .m:hover {
-	width: 90%;
+	width: 75%;
 }
-.g:hover {
-	width: 84%;
+.b:hover {
+	width: 95%;
 }
 
 
@@ -222,7 +224,6 @@ section h3::after {
 	height: 200px;
 	object-fit: cover;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .col-4 a:hover img {
 	transform: scale(1.2);
@@ -232,7 +233,7 @@ section h3::after {
 
 /* bagian contact */
 #contact {
-	background-color: #ff0000;
+	background-color: #a50100;
 }
 .col-3 {
 	width: 33.33%;
@@ -243,20 +244,20 @@ section h3::after {
 }
 .col-3 h4 {
 	padding-bottom: 10px;
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 15px;
+	border-bottom: 15px;
 }
 
 
 /* bagian footer */
 footer {
-	background-color: #333;
+	background-color: black;
 	padding: 50px;
 	text-align: center;
 }
 footer small {
 	color: #fff;
 }
+
 
 html {
 	scroll-behavior: smooth;
