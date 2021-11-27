@@ -2,7 +2,7 @@
 	font-family: 'Koh Santepheap', cursive;
 	padding:0;
 	margin:0;
-	color: black;
+	color: #fff;
 }
 /* pengaturan header */
 header {
@@ -19,7 +19,7 @@ header ul li {
 	padding:25px;
 }
 header ul li a:hover {
-	color: #d64d60;
+	color: #C0392B;
 }
 header ul li a {
 	transition: .3s;
@@ -31,7 +31,7 @@ header h1 {
 	padding-top: 12px;
 }
 header h1 a:hover {
-	color: #d64d6c;
+	color: #C0392B;
 }
 header h1 a {
 	transition: .3s;
