@@ -2,13 +2,13 @@
 	font-family: 'Koh Santepheap', cursive;
 	padding:0;
 	margin:0;
-	color: #fff;
+	color: black;
 }
 /* pengaturan header */
 header {
 	height: 70px;
 	width: 100%;
-	background-color: #17202A;
+	background-color: #fff;
 	position: fixed;
 }
 header ul {
